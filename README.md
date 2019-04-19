@@ -18,3 +18,8 @@
    - Shift + MOVE
 
 ---
+
+3. Delete
+   - backspace: CapsLock + d
+
+---
