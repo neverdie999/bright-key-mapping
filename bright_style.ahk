@@ -1,6 +1,11 @@
 SetCapsLockState, AlwaysOff
 
 
+CapsLock & d::
+SendInput, {BackSpace}
+return
+
+
 CapsLock & j::
 SendInput, {Left}
 return
