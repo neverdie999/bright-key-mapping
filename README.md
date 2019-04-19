@@ -23,3 +23,14 @@
    - backspace: CapsLock + d
 
 ---
+
+4. Control combinations
+   - Ctrl + f: CapsLock + f
+   - Ctrl + a: CapsLock + a
+   - Ctrl + c: CapsLock + c
+   - Ctrl + v: CapsLock + v
+   - Ctrl + x: CapsLock + x
+   - Ctrl + y: CapsLock + y
+   - Ctrl + z: CapsLock + z
+
+---
