@@ -15,6 +15,10 @@ CapsLock & a::
 SendInput, {Ctrl down}a{Ctrl up}
 return
 
+CapsLock & s::
+SendInput, {Ctrl down}s{Ctrl up}
+return
+
 CapsLock & c::
 SendInput, {Ctrl down}c{Ctrl up}
 return
