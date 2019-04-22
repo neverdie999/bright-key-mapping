@@ -27,6 +27,7 @@
 4. Control combinations
    - Ctrl + f: CapsLock + f
    - Ctrl + a: CapsLock + a
+   - Ctrl + s: CapsLock + s
    - Ctrl + c: CapsLock + c
    - Ctrl + v: CapsLock + v
    - Ctrl + x: CapsLock + x
