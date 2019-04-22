@@ -1,4 +1,4 @@
-# bright-key-mapping
+# bright-key-mapping for autohotkey
 
 ---
 
