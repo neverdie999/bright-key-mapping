@@ -4,11 +4,13 @@
 
 1. Move
    - left: CapsLock + j
+   - left(word): CapsLock + h
    - right: CapsLock + l
+   - right(word): CapsLock + ;
    - up: CapsLock + i
    - down: CapsLock + k
-   - home: CapsLock + h
-   - end: CapsLock + ;
+   - home: CapsLock + ,
+   - end: CapsLock + .
    - page up: CapsLock + u
    - page down: CapsLock + n
    
@@ -19,12 +21,7 @@
 
 ---
 
-3. Delete
-   - backspace: CapsLock + d
-
----
-
-4. Control combinations
+3. Control combinations
    - Ctrl + f: CapsLock + f
    - Ctrl + a: CapsLock + a
    - Ctrl + s: CapsLock + s
