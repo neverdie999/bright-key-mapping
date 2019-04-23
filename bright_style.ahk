@@ -1,10 +1,6 @@
 ; CapsLock Off - rarely used
 SetCapsLockState, AlwaysOff
 
-; alternative for backspace (no wrist movement)
-CapsLock & d::
-SendInput, {BackSpace}
-return
 
 ; alternative for control combination (no wrist movement)
 CapsLock & f::
@@ -17,6 +13,10 @@ return
 
 CapsLock & s::
 SendInput, {Ctrl down}s{Ctrl up}
+return
+
+CapsLock & d::
+SendInput, {Ctrl down}d{Ctrl up}
 return
 
 CapsLock & c::
@@ -39,6 +39,7 @@ CapsLock & y::
 SendInput, {Ctrl down}y{Ctrl up}
 return
 
+
 ; alternative for arrow movement (no wrist movement: it was very tired)
 CapsLock & j::
 SendInput, {Left}
@@ -57,10 +58,18 @@ SendInput, {Up}
 return
 
 CapsLock & h::
-SendInput, {Home}
+SendInput, {Ctrl down}{Left}{Ctrl up}
 return
 
 CapsLock & `;::
+SendInput, {Ctrl down}{Right}{Ctrl up}
+return
+
+CapsLock & ,::
+SendInput, {Home}
+return
+
+CapsLock & .::
 SendInput, {End}
 return
 
@@ -96,11 +105,21 @@ return
 
 #if GetKeyState("Shift", "P")
 CapsLock & h::
-SendInput, {Shift down}{Home}{Shift up}
+SendInput, {Shift down}{Ctrl down}{Left}{Ctrl up}{Shift up}
 return
 
 #if GetKeyState("Shift", "P")
 CapsLock & `;::
+SendInput, {Shift down}{Ctrl down}{Right}{Ctrl up}{Shift up}
+return
+
+#if GetKeyState("Shift", "P")
+CapsLock & ,::
+SendInput, {Shift down}{Home}{Shift up}
+return
+
+#if GetKeyState("Shift", "P")
+CapsLock & .::
 SendInput, {Shift down}{End}{Shift up}
 return
 
