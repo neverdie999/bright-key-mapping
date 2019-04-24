@@ -22,13 +22,19 @@
 ---
 
 3. Control combinations
-   - Ctrl + f: CapsLock + f
    - Ctrl + a: CapsLock + a
    - Ctrl + s: CapsLock + s
+   - Ctrl + d: CapsLock + d
+   - Ctrl + f: CapsLock + f
+   
+   - Ctrl + z: CapsLock + z
+   - Ctrl + x: CapsLock + x
    - Ctrl + c: CapsLock + c
    - Ctrl + v: CapsLock + v
-   - Ctrl + x: CapsLock + x
+   - Ctrl + b: CapsLock + b
+   
    - Ctrl + y: CapsLock + y
-   - Ctrl + z: CapsLock + z
-
+   
+   - Ctrl + Space: CapsLock + Space
+   
 ---
