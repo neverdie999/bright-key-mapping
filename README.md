@@ -4,7 +4,7 @@
 
 1. Move
 
-   | original | mapped |
+   | ORIGINAL | MAPPED |
    | --- | --- |
    | left | CapsLock + j |
    | left(word)| CapsLock + h |
@@ -26,7 +26,7 @@
 
 3. Control combinations
 
-   | original | mapped |
+   | ORIGINAL | MAPPED |
    | --- | --- |
    | Ctrl + a | CapsLock + a |
    | Ctrl + s | CapsLock + s |
