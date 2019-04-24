@@ -25,6 +25,7 @@
 ---
 
 3. Control combinations
+
    | original | mapped |
    | --- | --- |
    | Ctrl + a | CapsLock + a |
