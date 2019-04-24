@@ -27,6 +27,10 @@ CapsLock & v::
 SendInput, {Ctrl down}v{Ctrl up}
 return
 
+CapsLock & b::
+SendInput, {Ctrl down}b{Ctrl up}
+return
+
 CapsLock & x::
 SendInput, {Ctrl down}x{Ctrl up}
 return
@@ -39,6 +43,9 @@ CapsLock & y::
 SendInput, {Ctrl down}y{Ctrl up}
 return
 
+CapsLock & Space::
+SendInput, {Ctrl down}{Space}{Ctrl up}
+return
 
 ; alternative for arrow movement (no wrist movement: it was very tired)
 CapsLock & j::
