@@ -3,16 +3,19 @@
 ---
 
 1. Move
-   - left: CapsLock + j
-   - left(word): CapsLock + h
-   - right: CapsLock + l
-   - right(word): CapsLock + ;
-   - up: CapsLock + i
-   - down: CapsLock + k
-   - home: CapsLock + ,
-   - end: CapsLock + .
-   - page up: CapsLock + u
-   - page down: CapsLock + n
+
+   | original | mapped |
+   | --- | --- |
+   | left | CapsLock + j |
+   | left(word)| CapsLock + h |
+   | right| CapsLock + l |
+   | right(word)| CapsLock + ; |
+   | up| CapsLock + i |
+   | down| CapsLock + k |
+   | home| CapsLock + , |
+   | end| CapsLock + . |
+   | page up| CapsLock + u |
+   | page down| CapsLock + n |
    
 ---
 
@@ -22,19 +25,16 @@
 ---
 
 3. Control combinations
-   - Ctrl + a: CapsLock + a
-   - Ctrl + s: CapsLock + s
-   - Ctrl + d: CapsLock + d
-   - Ctrl + f: CapsLock + f
-   
-   - Ctrl + z: CapsLock + z
-   - Ctrl + x: CapsLock + x
-   - Ctrl + c: CapsLock + c
-   - Ctrl + v: CapsLock + v
-   - Ctrl + b: CapsLock + b
-   
-   - Ctrl + y: CapsLock + y
-   
-   - Ctrl + Space: CapsLock + Space
+   | Ctrl + a | CapsLock + a |
+   | Ctrl + s | CapsLock + s |
+   | Ctrl + d | CapsLock + d |
+   | Ctrl + f | CapsLock + f |
+   | Ctrl + z | CapsLock + z |
+   | Ctrl + x | CapsLock + x |
+   | Ctrl + c | CapsLock + c |
+   | Ctrl + v | CapsLock + v |
+   | Ctrl + b | CapsLock + b |
+   | Ctrl + y | CapsLock + y |
+   | Ctrl + Space | CapsLock + Space |
    
 ---
