@@ -43,6 +43,10 @@ CapsLock & y::
 SendInput, {Ctrl down}y{Ctrl up}
 return
 
+CapsLock & /::
+SendInput, {Ctrl down}/{Ctrl up}
+return
+
 CapsLock & Space::
 SendInput, {Ctrl down}{Space}{Ctrl up}
 return
