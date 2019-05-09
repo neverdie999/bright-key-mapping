@@ -38,6 +38,7 @@
    | Ctrl + v | CapsLock + v |
    | Ctrl + b | CapsLock + b |
    | Ctrl + y | CapsLock + y |
+   | Ctrl + / | CapsLock + / |
    | Ctrl + Space | CapsLock + Space |
    
 ---
