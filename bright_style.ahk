@@ -1,6 +1,10 @@
 ; CapsLock Off - rarely used
 SetCapsLockState, AlwaysOff
 
+; easy tilde for 60% keyboard
++Esc::
+SendInput, ~
+return
 
 ; alternative for control combination (no wrist movement)
 CapsLock & f::
