@@ -48,7 +48,6 @@ m::Send "{PgDn}"
 h::Send "{Backspace}"
 `;::Send "{Enter}"
 }
-#HotIf
 
 ; alternative for selection with arrow movement (no wrist movement: it was very tired)
 #HotIf GetKeyState("Shift", "P")
@@ -57,14 +56,12 @@ CapsLock & j::Send "+{Left}"
 CapsLock & l::Send "+{Right}"
 CapsLock & k::Send "+{Down}"
 CapsLock & i::Send "+{Up}"
-CapsLock & h::Send "+^+{Left}"
-CapsLock & `;::Send "+^+{Right}"
 CapsLock & ,::Send "+{Home}"
 CapsLock & .::Send "+{End}"
 CapsLock & u::Send "+{PgUp}"
 CapsLock & m::Send "+{PgDn}"
+CapsLock & `;::Send "+{Enter}"
 }
-#HotIf
 
 ; alternative for selection with arrow movement (no wrist movement: it was very tired)
 #HotIf GetKeyState("CapsLock", "P")
@@ -73,11 +70,9 @@ Shift & j::Send "+{Left}"
 Shift & l::Send "+{Right}"
 Shift & k::Send "+{Down}"
 Shift & i::Send "+{Up}"
-Shift & h::Send "+^+{Left}"
-Shift & `;::Send "+^+{Right}"
 Shift & ,::Send "+{Home}"
 Shift & .::Send "+{End}"
 Shift & u::Send "+{PgUp}"
 Shift & m::Send "+{PgDn}"
+Shift & `;::Send "+{Enter}"
 }
-#HotIf
