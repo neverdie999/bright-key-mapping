@@ -24,7 +24,15 @@
 
 ---
 
-3. Control combinations
+3. Edit
+   | ORIGINAL | MAPPED |
+   | :---: | :---: |
+   | Backspace | CapsLock + h |
+   | Enter | CapsLock + ; |
+
+---
+
+4. Control combinations
 
    | ORIGINAL | MAPPED |
    | :---: | :---: |
