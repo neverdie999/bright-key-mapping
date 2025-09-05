@@ -1,149 +1,83 @@
+#Requires AutoHotkey v2.0
+
 ; CapsLock Off - rarely used
-SetCapsLockState, AlwaysOff
+SetCapsLockState("AlwaysOff")
 
-; easy tilde for 60% keyboard
-+Esc::
-SendInput, ~
-return
+; for special 60% keyboard (When Esc key is remapped as backtick)
+; #InputLevel 1
+; `::Send "{Esc}"
+; #InputLevel 2
+; Esc::Send "``"
+; or Esc::Send Chr(0x60)
 
+; for 60% keyboard
++Esc::Send "~"
+
+#HotIf GetKeyState("CapsLock", "P")
+{
 ; alternative for control combination (no wrist movement)
-CapsLock & f::
-SendInput, {Ctrl down}f{Ctrl up}
-return
-
-CapsLock & a::
-SendInput, {Ctrl down}a{Ctrl up}
-return
-
-CapsLock & s::
-SendInput, {Ctrl down}s{Ctrl up}
-return
-
-CapsLock & d::
-SendInput, {Ctrl down}d{Ctrl up}
-return
-
-CapsLock & c::
-SendInput, {Ctrl down}c{Ctrl up}
-return
-
-CapsLock & v::
-SendInput, {Ctrl down}v{Ctrl up}
-return
-
-CapsLock & b::
-SendInput, {Ctrl down}b{Ctrl up}
-return
-
-CapsLock & x::
-SendInput, {Ctrl down}x{Ctrl up}
-return
-
-CapsLock & z::
-SendInput, {Ctrl down}z{Ctrl up}
-return
-
-CapsLock & y::
-SendInput, {Ctrl down}y{Ctrl up}
-return
-
-CapsLock & /::
-SendInput, {Ctrl down}/{Ctrl up}
-return
-
-CapsLock & Space::
-SendInput, {Ctrl down}{Space}{Ctrl up}
-return
+f::Send "^f"
+a::Send "^a"
+s::Send "^s"
+d::Send "^d"
+c::Send "^c"
+v::Send "^v"
+b::Send "^b"
+n::Send "^n"
+t::Send "^t"
+r::Send "^r"
+q::Send "^q"
+w::Send "^w"
+x::Send "^x"
+z::Send "^z"
+y::Send "^y"
+/::Send "^/"
+Space::Send "^ "
 
 ; alternative for arrow movement (no wrist movement: it was very tired)
-CapsLock & j::
-SendInput, {Left}
-return
+j::Send "{Left}"
+l::Send "{Right}"
+k::Send "{Down}"
+i::Send "{Up}"
+,::Send "{Home}"
+.::Send "{End}"
+u::Send "{PgUp}"
+m::Send "{PgDn}"
 
-CapsLock & l::
-SendInput, {Right}
-return
-
-CapsLock & k::
-SendInput, {Down}
-return
-
-CapsLock & i::
-SendInput, {Up}
-return
-
-CapsLock & h::
-SendInput, {Ctrl down}{Left}{Ctrl up}
-return
-
-CapsLock & `;::
-SendInput, {Ctrl down}{Right}{Ctrl up}
-return
-
-CapsLock & ,::
-SendInput, {Home}
-return
-
-CapsLock & .::
-SendInput, {End}
-return
-
-CapsLock & u::
-SendInput, {PgUp}
-return
-
-CapsLock & n::
-SendInput, {PgDn}
-return
-
+; alternative for edit text
+h::Send "{Backspace}"
+`;::Send "{Enter}"
+}
+#HotIf
 
 ; alternative for selection with arrow movement (no wrist movement: it was very tired)
-#if GetKeyState("Shift", "P")
-CapsLock & j::
-SendInput, {Shift down}{Left}{Shift up}
-return
+#HotIf GetKeyState("Shift", "P")
+{
+CapsLock & j::Send "+{Left}"
+CapsLock & l::Send "+{Right}"
+CapsLock & k::Send "+{Down}"
+CapsLock & i::Send "+{Up}"
+CapsLock & h::Send "+^+{Left}"
+CapsLock & `;::Send "+^+{Right}"
+CapsLock & ,::Send "+{Home}"
+CapsLock & .::Send "+{End}"
+CapsLock & u::Send "+{PgUp}"
+CapsLock & m::Send "+{PgDn}"
+}
+#HotIf
 
-#if GetKeyState("Shift", "P")
-CapsLock & l::
-SendInput, {Shift down}{Right}{Shift up}
-return
-
-#if GetKeyState("Shift", "P")
-CapsLock & k::
-SendInput, {Shift down}{Down}{Shift up}
-return
-
-#if GetKeyState("Shift", "P")
-CapsLock & i::
-SendInput, {Shift down}{Up}{Shift up}
-return
-
-#if GetKeyState("Shift", "P")
-CapsLock & h::
-SendInput, {Shift down}{Ctrl down}{Left}{Ctrl up}{Shift up}
-return
-
-#if GetKeyState("Shift", "P")
-CapsLock & `;::
-SendInput, {Shift down}{Ctrl down}{Right}{Ctrl up}{Shift up}
-return
-
-#if GetKeyState("Shift", "P")
-CapsLock & ,::
-SendInput, {Shift down}{Home}{Shift up}
-return
-
-#if GetKeyState("Shift", "P")
-CapsLock & .::
-SendInput, {Shift down}{End}{Shift up}
-return
-
-#if GetKeyState("Shift", "P")
-CapsLock & u::
-SendInput, {Shift down}{PgUp}{Shift up}
-return
-
-#if GetKeyState("Shift", "P")
-CapsLock & n::
-SendInput, {Shift down}{PgDn}{Shift up}
-return
+; alternative for selection with arrow movement (no wrist movement: it was very tired)
+#HotIf GetKeyState("CapsLock", "P")
+{
+Shift & j::Send "+{Left}"
+Shift & l::Send "+{Right}"
+Shift & k::Send "+{Down}"
+Shift & i::Send "+{Up}"
+Shift & h::Send "+^+{Left}"
+Shift & `;::Send "+^+{Right}"
+Shift & ,::Send "+{Home}"
+Shift & .::Send "+{End}"
+Shift & u::Send "+{PgUp}"
+Shift & m::Send "+{PgDn}"
+}
+#HotIf
