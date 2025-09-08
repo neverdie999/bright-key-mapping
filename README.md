@@ -7,13 +7,15 @@
    | ORIGINAL | MAPPED |
    | :---: | :---: |
    | left | CapsLock + j |
-   | right| CapsLock + l |
-   | up| CapsLock + i |
-   | down| CapsLock + k |
-   | home| CapsLock + , |
-   | end| CapsLock + . |
-   | page up| CapsLock + u |
-   | page down| CapsLock + m |
+   | left (word-wise) | CapsLock + h |
+   | right | CapsLock + l |
+   | right (word-wise) | CapsLock + ; |
+   | up | CapsLock + i |
+   | down | CapsLock + k |
+   | home | CapsLock + , |
+   | end | CapsLock + . |
+   | page up | CapsLock + u |
+   | page down | CapsLock + m |
    
 ---
 
@@ -25,8 +27,9 @@
 3. Edit
    | ORIGINAL | MAPPED |
    | :---: | :---: |
-   | Backspace | CapsLock + h |
-   | Enter | CapsLock + ; |
+   | Backspace | CapsLock + g |
+   | Enter | CapsLock + ' |
+   | Shift + Enter | CapsLock + Shift + ' |
 
 ---
 
