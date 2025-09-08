@@ -36,9 +36,9 @@ Space::Send "^ "
 
 ; alternative for arrow movement (no wrist movement: it was very tired)
 j::Send "{Left}"
-o::Send "^{Left}"
+h::Send "^{Left}"
 l::Send "{Right}"
-p::Send "^{Right}"
+`;::Send "^{Right}"
 k::Send "{Down}"
 i::Send "{Up}"
 ,::Send "{Home}"
@@ -47,34 +47,38 @@ u::Send "{PgUp}"
 m::Send "{PgDn}"
 
 ; alternative for edit text
-h::Send "{Backspace}"
-`;::Send "{Enter}"
+g::Send "{Backspace}"
+'::Send "{Enter}"
 }
 
 ; alternative for selection with arrow movement (no wrist movement: it was very tired)
 #HotIf GetKeyState("Shift", "P")
 {
 CapsLock & j::Send "+{Left}"
+CapsLock & h::Send "+^{Left}"
 CapsLock & l::Send "+{Right}"
+CapsLock & `;::Send "+^{Right}"
 CapsLock & k::Send "+{Down}"
 CapsLock & i::Send "+{Up}"
 CapsLock & ,::Send "+{Home}"
 CapsLock & .::Send "+{End}"
 CapsLock & u::Send "+{PgUp}"
 CapsLock & m::Send "+{PgDn}"
-CapsLock & `;::Send "+{Enter}"
+CapsLock & '::Send "+{Enter}"
 }
 
 ; alternative for selection with arrow movement (no wrist movement: it was very tired)
 #HotIf GetKeyState("CapsLock", "P")
 {
 Shift & j::Send "+{Left}"
+Shift & h::Send "+^{Left}"
 Shift & l::Send "+{Right}"
+Shift & `;::Send "+^{Right}"
 Shift & k::Send "+{Down}"
 Shift & i::Send "+{Up}"
 Shift & ,::Send "+{Home}"
 Shift & .::Send "+{End}"
 Shift & u::Send "+{PgUp}"
 Shift & m::Send "+{PgDn}"
-Shift & `;::Send "+{Enter}"
+Shift & '::Send "+{Enter}"
 }
