@@ -36,7 +36,9 @@ Space::Send "^ "
 
 ; alternative for arrow movement (no wrist movement: it was very tired)
 j::Send "{Left}"
+o::Send "^{Left}"
 l::Send "{Right}"
+p::Send "^{Right}"
 k::Send "{Down}"
 i::Send "{Up}"
 ,::Send "{Home}"
