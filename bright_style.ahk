@@ -18,9 +18,11 @@ SetCapsLockState("AlwaysOff")
 ; alternative for control combination (no wrist movement)
 f::Send "^f"
 h::Send "^h"
-r::Send "^r"
+z::Send "^z"
+x::Send "^x"
 c::Send "^c"
 v::Send "^v"
+y::Send "^y"
 /::Send "^/"
 Space::Send "^ "
 
