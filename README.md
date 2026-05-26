@@ -39,6 +39,7 @@
    | Alt + F4 | CapsLock + q |
    | Ctrl + w | CapsLock + w |
    | Win + e | CapsLock + e |
+   | Win + Tab | CapsLock + Tab |
 
 ---
 
@@ -46,11 +47,13 @@
 
    | ORIGINAL | MAPPED |
    | :---: | :---: |
+   | Ctrl + z | CapsLock + z |
+   | Ctrl + x | CapsLock + x |
    | Ctrl + c | CapsLock + c |
    | Ctrl + v | CapsLock + v |
+   | Ctrl + / | CapsLock + / |
    | Ctrl + f | CapsLock + f |
    | Ctrl + h | CapsLock + h |
-   | Ctrl + / | CapsLock + / |
    | Ctrl + Space | CapsLock + Space |
    
 ---
