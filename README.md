@@ -33,20 +33,20 @@
 
 ---
 
-4. Control combinations
+4. Edit
+   | ORIGINAL | MAPPED |
+   | :---: | :---: |
+   | Alt + F4 | CapsLock + q |
+   | Ctrl + F4 | CapsLock + w |
+
+---
+
+5. Control combinations
 
    | ORIGINAL | MAPPED |
    | :---: | :---: |
-   | Ctrl + a | CapsLock + a |
-   | Ctrl + s | CapsLock + s |
-   | Ctrl + d | CapsLock + d |
-   | Ctrl + f | CapsLock + f |
-   | Ctrl + z | CapsLock + z |
-   | Ctrl + x | CapsLock + x |
    | Ctrl + c | CapsLock + c |
    | Ctrl + v | CapsLock + v |
-   | Ctrl + b | CapsLock + b |
-   | Ctrl + y | CapsLock + y |
    | Ctrl + / | CapsLock + / |
    | Ctrl + Space | CapsLock + Space |
    
