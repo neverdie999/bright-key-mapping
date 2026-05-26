@@ -54,6 +54,7 @@
    | Ctrl + / | CapsLock + / |
    | Ctrl + f | CapsLock + f |
    | Ctrl + h | CapsLock + h |
+   | Ctrl + y | CapsLock + y |
    | Ctrl + Space | CapsLock + Space |
    
 ---
