@@ -7,9 +7,9 @@
    | ORIGINAL | MAPPED |
    | :---: | :---: |
    | left | CapsLock + j |
-   | left (word-wise) | CapsLock + h |
+   | left (word-wise) | CapsLock + o |
    | right | CapsLock + l |
-   | right (word-wise) | CapsLock + ; |
+   | right (word-wise) | CapsLock + p |
    | up | CapsLock + i |
    | down | CapsLock + k |
    | home | CapsLock + , |
@@ -28,8 +28,8 @@
    | ORIGINAL | MAPPED |
    | :---: | :---: |
    | Backspace | CapsLock + g |
-   | Enter | CapsLock + ' |
-   | Shift + Enter | CapsLock + Shift + ' |
+   | Enter | CapsLock + ; |
+   | Shift + Enter | CapsLock + Shift + ; |
 
 ---
 
@@ -37,7 +37,7 @@
    | ORIGINAL | MAPPED |
    | :---: | :---: |
    | Alt + F4 | CapsLock + q |
-   | Ctrl + F4 | CapsLock + w |
+   | Ctrl + w | CapsLock + w |
 
 ---
 
@@ -47,6 +47,8 @@
    | :---: | :---: |
    | Ctrl + c | CapsLock + c |
    | Ctrl + v | CapsLock + v |
+   | Ctrl + f | CapsLock + f |
+   | Ctrl + h | CapsLock + h |
    | Ctrl + / | CapsLock + / |
    | Ctrl + Space | CapsLock + Space |
    
