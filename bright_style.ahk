@@ -27,6 +27,8 @@ Space::Send "^ "
 ; alternative for window control
 q::Send "!{F4}"
 w::Send "^w"
+e::Send "#e"
+Tab::Send "#Tab"
 
 ; alternative for arrow movement (no wrist movement: it was very tired)
 j::Send "{Left}"
