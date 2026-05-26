@@ -17,28 +17,22 @@ SetCapsLockState("AlwaysOff")
 {
 ; alternative for control combination (no wrist movement)
 f::Send "^f"
-a::Send "^a"
-s::Send "^s"
-d::Send "^d"
+h::Send "^h"
+r::Send "^r"
 c::Send "^c"
 v::Send "^v"
-b::Send "^b"
-n::Send "^n"
-t::Send "^t"
-r::Send "^r"
-q::Send "^q"
-w::Send "^w"
-x::Send "^x"
-z::Send "^z"
-y::Send "^y"
 /::Send "^/"
 Space::Send "^ "
 
+; alternative for window control
+q::Send "!{F4}"
+w::Send "^w"
+
 ; alternative for arrow movement (no wrist movement: it was very tired)
 j::Send "{Left}"
-h::Send "^{Left}"
+o::Send "^{Left}"
 l::Send "{Right}"
-`;::Send "^{Right}"
+p::Send "^{Right}"
 k::Send "{Down}"
 i::Send "{Up}"
 ,::Send "{Home}"
@@ -48,37 +42,37 @@ m::Send "{PgDn}"
 
 ; alternative for edit text
 g::Send "{Backspace}"
-'::Send "{Enter}"
+`;::Send "{Enter}"
 }
 
 ; alternative for selection with arrow movement (no wrist movement: it was very tired)
 #HotIf GetKeyState("Shift", "P")
 {
 CapsLock & j::Send "+{Left}"
-CapsLock & h::Send "+^{Left}"
+CapsLock & o::Send "+^{Left}"
 CapsLock & l::Send "+{Right}"
-CapsLock & `;::Send "+^{Right}"
+CapsLock & p::Send "+^{Right}"
 CapsLock & k::Send "+{Down}"
 CapsLock & i::Send "+{Up}"
 CapsLock & ,::Send "+{Home}"
 CapsLock & .::Send "+{End}"
 CapsLock & u::Send "+{PgUp}"
 CapsLock & m::Send "+{PgDn}"
-CapsLock & '::Send "+{Enter}"
+CapsLock & `;::Send "+{Enter}"
 }
 
 ; alternative for selection with arrow movement (no wrist movement: it was very tired)
 #HotIf GetKeyState("CapsLock", "P")
 {
 Shift & j::Send "+{Left}"
-Shift & h::Send "+^{Left}"
+Shift & o::Send "+^{Left}"
 Shift & l::Send "+{Right}"
-Shift & `;::Send "+^{Right}"
+Shift & p::Send "+^{Right}"
 Shift & k::Send "+{Down}"
 Shift & i::Send "+{Up}"
 Shift & ,::Send "+{Home}"
 Shift & .::Send "+{End}"
 Shift & u::Send "+{PgUp}"
 Shift & m::Send "+{PgDn}"
-Shift & '::Send "+{Enter}"
+Shift & `;::Send "+{Enter}"
 }
