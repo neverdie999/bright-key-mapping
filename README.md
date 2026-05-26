@@ -33,11 +33,12 @@
 
 ---
 
-4. Edit
+4. Window / Tab control
    | ORIGINAL | MAPPED |
    | :---: | :---: |
    | Alt + F4 | CapsLock + q |
    | Ctrl + w | CapsLock + w |
+   | Win + e | CapsLock + e |
 
 ---
 
